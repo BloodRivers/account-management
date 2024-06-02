@@ -36,6 +36,6 @@ onAuthStateChanged(auth, (user) => {
         return uid;
     } else {
         alert("Create Account & Log In")
-        window.location.href = "/index.html";
+        window.location.href = "index.html";
     }
 });
